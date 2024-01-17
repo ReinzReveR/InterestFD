@@ -52,11 +52,19 @@ body {
 
 .header p {
     margin-top: 20px;
+    font-size: medium;
 }
 
 .penjelasan {
     text-align: center;
     font-size: 10px;
+}
+
+/* Styling untuk Nama Bagian Perhitungan */
+#NamaJudulKalkulator {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #3b92f5;
 }
 
 /* Styling untuk kalkulator */
@@ -88,7 +96,7 @@ input {
 }
 
 /* Styling untuk tombol */
-button {
+.tombolHitung {
     background-color: #3b92f5;
     color: #fff;
     padding: 10px 20px;
@@ -97,7 +105,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.tombolHitung:hover {
     background-color: #1882fa;
 }
 
@@ -108,18 +116,31 @@ button:hover {
     color: #3b92f5;
 }
 
-/* Styling untuk kotak bagian bawah */
-.cr {
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: center;
+/* Styling untuk tombol switch */
+#tombolSwitch {
     background-color: #3b92f5;
-    padding: 20px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.432);
-    margin: 20px 0;
-    font-style: italic;
-    font-size: medium;
-    font-weight: bolder;
-    color: white;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#tombolSwitch:hover {
+    background-color: #1882fa;
+}
+
+.tombolReset {
+    background-color: #3b92f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.tombolReset:hover {
+    background-color: #1882fa;
 }
